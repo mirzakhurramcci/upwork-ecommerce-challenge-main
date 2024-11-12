@@ -1,0 +1,27 @@
+.active_sticky {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  -webkit-animation: sticky 0.7s;
+  animation: sticky 0.7s;
+}
+
+@-webkit-keyframes sticky {
+  0% {
+    top: -150px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes sticky {
+  0% {
+    top: -150px;
+  }
+  100% {
+    top: 0;
+  }
+}
